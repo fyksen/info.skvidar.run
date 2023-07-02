@@ -62,7 +62,7 @@ export default {
         "23": "to uker",
         // Add more mappings as needed
       },
-      fileName: "attendees-files/names.txt",
+      fileName: "../attendees-files/names.txt",
     };
   },
   mounted() {
