@@ -1,3 +1,6 @@
+# Velkommen til treningsleir
+
+Her kommer en liste over folk som har meldt seg på til nå:
 
 <div>
   <table>
