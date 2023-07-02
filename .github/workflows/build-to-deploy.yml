@@ -14,6 +14,12 @@ jobs:
           cache: 'npm'
           cache-dependency-path: package-lock.json
 
+      - name: install the project dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run docs:build
+
       - name: rsync to info.skvidar.run
         uses: easingthemes/ssh-deploy@main
         env:
