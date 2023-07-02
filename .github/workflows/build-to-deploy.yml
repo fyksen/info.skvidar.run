@@ -24,7 +24,7 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-avzr --delete"
+          ARGS: "-rlgoDzvc -i"
           SOURCE: .vitepress/dist/
           REMOTE_HOST: info.skvidar.run
           REMOTE_USER: fyksen
