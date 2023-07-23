@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "vue": "^3.3.4"
   },
   "name": "info.skvidar.run",
