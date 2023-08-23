@@ -7,17 +7,15 @@ hero:
   tagline: En konsis infoside for SK Vidar Lang
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Intro Guide
+      link: /intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Facebook Gruppe
+      link: https://www.facebook.com/groups/314712537171067
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: God trening, godt selskap!
+    details: Vi sikter på å være den treningsgruppa i Norge med best kvalitet på fellesøkter.
+  - title: Trening hele året
+    details: I over 5 år har treningsgruppen arrangert 3 treninger i uka, sommer som vinter.
 ---
