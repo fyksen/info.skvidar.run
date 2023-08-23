@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Intro Guide
-      link: /intro
+      link: /intro/
     - theme: alt
       text: Facebook Gruppe
       link: https://www.facebook.com/groups/314712537171067
