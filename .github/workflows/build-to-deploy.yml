@@ -15,7 +15,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: install the project dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run docs:build
