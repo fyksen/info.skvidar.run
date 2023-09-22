@@ -14,7 +14,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Hjem', link: '/' },
-      { text: 'Intro Guide', link: '/intro/' },
+      { text: 'Introguide', link: '/intro/' },
     ],
 
     sidebar: [
@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
           { text: 'Første økt', link: '/intro/' },
+          { text: 'Chat', link: '/chat/' },
           { text: 'Trenere', link: '/intro/personer' }
         ]
       }

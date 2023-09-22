@@ -7,7 +7,7 @@ hero:
   tagline: En konsis infoside for SK Vidar Lang
   actions:
     - theme: brand
-      text: Intro Guide
+      text: Introguide
       link: /intro/
     - theme: alt
       text: Facebook Gruppe
