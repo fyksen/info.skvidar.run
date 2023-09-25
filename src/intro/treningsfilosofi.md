@@ -16,3 +16,7 @@ Videoen kan sees internt i vår facebook gruppe [her](https://www.facebook.com/w
 </audio>
 
 * Har lydspilleren små knappen, kan du åpne filen direkte [herfra](https://info.skvidar.run/ressurser/hvorfor-trener-vi-som-vi-gjor.mp3).
+
+## Powerpoint
+
+Presentasjonen kan du finne [her](/public/ressurser/hvorfor-trener-vi-som-vi-gjor.pptx) (krever installert powerpoint eller lignende).
