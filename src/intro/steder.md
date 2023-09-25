@@ -2,40 +2,27 @@
 
 [[toc]]
 
-## Bislett
+## NG - Nordre Gravlund
 
-* Her er Bislett. Kult!
+* Lengde: ~1492 meter.
+* Oppmøtested: [Google maps lenke](https://maps.app.goo.gl/w2KuptS8mXHvtahw5)
 
-### Inne
-
-* Innebanen er 546 meter lang
-
-### Ute
-
-* Banen ute er 400m, hehe.
-
-## NG - Norgdre Gravlund
-
-* 1500 meter ish. Noe kortere.
-
-::: details kart
-
-<center>
-<iframe width=80% height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.742960572242739%2C59.935008029855176%2C10.746501088142397%2C59.93638936428845&amp;layer=mapnik&amp;marker=59.935698704263324%2C10.744730830192566" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=59.93570&amp;mlon=10.74473#map=19/59.93570/10.74473">Se større kart i nytt vindu</a></small>
-</center>
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141366574835843080" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
 
 :::
 
-## NIH banen
+## NIH banen AKA Sognsvann
+* Oppmøtested [Google maps lenke](https://maps.app.goo.gl/hw64eHsAahngRCv47)
 
-### Baneløping
+NIH har vi flere runder vi pleier å løpe:
 
-### Terskelrunder
+### Gaustadrunden
 
-#### Jævelrunde1
+* Lengde: ~4 km.
 
-Dette er jo jævlig
-
-#### Jævelrunmde2
-
-Dette er også jævlig
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141370862576322568" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
+:::
