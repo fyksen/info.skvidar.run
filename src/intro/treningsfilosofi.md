@@ -11,7 +11,7 @@ Videoen kan sees internt i vår facebook gruppe [her](https://www.facebook.com/w
 
 ## Bare lyd
 <audio controls>
-  <source src="/public/ressurser/hvorfor-trener-vi-som-vi-gjor.mp3" type="audio/mp3">
+  <source src="/ressurser/hvorfor-trener-vi-som-vi-gjor.mp3" type="audio/mp3">
   Nettleseren din støtter ikke video.
 </audio>
 
@@ -19,4 +19,4 @@ Videoen kan sees internt i vår facebook gruppe [her](https://www.facebook.com/w
 
 ## Powerpoint
 
-Presentasjonen kan du finne [her](/public/ressurser/hvorfor-trener-vi-som-vi-gjor.pptx) (krever installert powerpoint eller lignende).
+Presentasjonen kan du finne [her](/ressurser/hvorfor-trener-vi-som-vi-gjor.pptx) (krever installert powerpoint eller lignende).
