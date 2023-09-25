@@ -3,18 +3,21 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: '/avatars/gustavvasdal.jpg',
     name: 'Gustav Vasdal',
-    title: 'Trenger og organisator'
+    title: 'Trener og organisator'
+  },
+  {
+    avatar: '/avatars/magnushojen.jpg',
+    name: 'Magnus Højen',
+    title: 'Trener'
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: '/avatars/markusharbo.jpg',
     name: 'Markus Harbo',
     title: 'Sportslig tankesmed'
   }
 ]
-
-
 </script>
 
 # Trenere
@@ -23,7 +26,6 @@ Si hei til vårt fantastiske trenerteam!
 
 <VPTeamMembers size="small" :members="members" />
 
----
 
 ## Ildsjeler
 
@@ -31,7 +33,10 @@ Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig 
 <VPTeamMembers
   size="small"
   :members="[
-    { avatar: '...', name: 'Fredrik Sætereng Fyksen' },
-    { avatar: '...', name: 'Erik Sørensen' },
-  ]"
+        {
+          avatar: '/avatars/fredrikfyksen.jpg',
+          name: 'Fredrik Sætereng Fyksen',
+          title: 'Alt mulig mann'
+        }
+]"
 />

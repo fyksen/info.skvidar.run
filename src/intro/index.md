@@ -63,7 +63,7 @@ Race prep
 ::: details Her er en video som viser hvordan
 
 <video controls>
-  <source src="/public/intro/facebook-react.webm" type="video/webm">
+  <source src="/intro/facebook-react.webm" type="video/webm">
   Nettleseren din støtter ikke video.
 </video>
 
