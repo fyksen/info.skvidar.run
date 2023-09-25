@@ -7,10 +7,7 @@ Her er et videoforedrag holdt av Markus Harbo om hvorfor vi velger å trene så 
 
 ## Video
 
-<video controls>
-  <source src="/public/ressurser/hvorfor-trener-vi-som-vi-gjor.mp4" type="video/webm">
-  Nettleseren din støtter ikke video.
-</video>
+Videoen kan sees internt i vår facebook gruppe [her](https://www.facebook.com/watch/?v=294330456667872&ref=sharing)
 
 ## Bare lyd
 <audio controls>
