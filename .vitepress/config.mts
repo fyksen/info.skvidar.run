@@ -14,14 +14,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Hjem', link: '/' },
-      { text: 'Introguide', link: '/intro/' },
+      { text: 'Introguide', link: '/intro/forste-okt' },
     ],
 
     sidebar: [
       {
         text: 'Intro',
         items: [
-          { text: 'Første økt', link: '/intro/' },
+          { text: 'Første økt', link: '/intro/forste-okt' },
           { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
           { text: 'Chat', link: '/intro/chat' },
           { text: 'Trenere', link: '/intro/personer' },
