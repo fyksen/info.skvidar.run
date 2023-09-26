@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "info.skvidar.run",
   description: "Informasjonsside for Skvidar Lang",
-  cleanUrls: false,
+  cleanUrls: true,
   ignoreDeadLinks: true,
   head: [
     ['script', { defer: true, 'data-domain': 'info.skvidar.run', src: 'https://plausible.tresh.run/js/script.js' }]
