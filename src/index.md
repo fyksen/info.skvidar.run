@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Introguide
-      link: /intro/
+      link: /intro/forste-okt
     - theme: alt
       text: Facebook Gruppe
       link: https://www.facebook.com/groups/314712537171067
