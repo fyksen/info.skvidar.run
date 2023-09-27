@@ -22,10 +22,7 @@ export default defineConfig({
         text: 'Intro',
         items: [
           { text: 'Første økt', link: '/intro/forste-okt' },
-          { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
-          { text: 'Chat', link: '/intro/chat' },
-          { text: 'Trenere', link: '/intro/personer' },
-          { text: 'Treningsfilosofi', link: '/intro/treningsfilosofi' },          
+          { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },  
         ]
       },
 
