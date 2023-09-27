@@ -22,7 +22,8 @@ export default defineConfig({
         text: 'Intro',
         items: [
           { text: 'Første økt', link: '/intro/forste-okt' },
-          { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },  
+          { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
+          { text: 'bislett-innendors', link: '/intro/bislett-innendors' },        
         ]
       },
 
