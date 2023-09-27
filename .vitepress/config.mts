@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Hjem', link: '/' },
+      { text: 'Startside', link: '/' },
       { text: 'Introguide', link: '/intro/forste-okt' },
     ],
 
@@ -27,7 +27,24 @@ export default defineConfig({
           { text: 'Trenere', link: '/intro/personer' },
           { text: 'Treningsfilosofi', link: '/intro/treningsfilosofi' },          
         ]
-      }
+      },
+
+      {
+        text: 'Diverse',
+        items: [
+          { text: 'Trenere', link: '/diverse/trenere' },
+          { text: 'Chat', link: '/diverse/chat' },
+          { text: 'Treningsfilosofi', link: '/diverse/treningsfilosofi' },
+        ]
+      },
+
+      {
+        text: 'Arrangementer',
+        items: [
+          { text: 'Oversikt', link: '/arrangementer/oversikt' },  
+        ]
+      }      
+
     ],
 
     // Oversetting av gui.
