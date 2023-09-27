@@ -36,7 +36,7 @@ Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig 
         {
           avatar: '/avatars/fredrikfyksen.jpg',
           name: 'Fredrik Sætereng Fyksen',
-          title: 'Alt mulig mann'
+          title: 'Altmuligmann'
         }
 ]"
 />
