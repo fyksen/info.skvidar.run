@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Informasjonsside for Skvidar Lang",
   cleanUrls: true,
   ignoreDeadLinks: true,
+  base: '/',
   head: [
     ['script', { defer: true, 'data-domain': 'info.skvidar.run', src: 'https://plausible.tresh.run/js/script.js' }]
   ],
