@@ -7,7 +7,7 @@ Innholdsfortegnelse:
 ## Hytteplanmila <Badge type="tip" text="løp, buss, fest" /> <Badge type="info" text="21. Oktober, 2023" />
 * Buss til og fra Hytteplanmila
 * Etterpåfest på Chateau Neuf.
-* Påmelding kommer.
+* Påmelding [her](https://neartail.com/sm/MgpJHJ-OX)
 
 ## Mar de Pulpi <Badge type="tip" text="Treningsleir" /> <Badge type="info" text="Oktober 2023" />
 
