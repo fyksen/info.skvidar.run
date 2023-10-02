@@ -28,6 +28,6 @@ jobs:
           SOURCE: .vitepress/dist/
           REMOTE_HOST: info.skvidar.run
           REMOTE_USER: fyksen
-          TARGET: ~/info.skvidar.run/dist/
+          TARGET: /var/info.skvidar.run/
           SCRIPT_AFTER: |
             echo $RSYNC_STDOUT
