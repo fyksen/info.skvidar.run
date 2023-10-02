@@ -2,7 +2,9 @@
 
 Here's a Strava route:
 
+::: details Kart
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141372052271268226" data-full-width="true"></div>
+:::
 
 <script setup>
 import { onMounted } from 'vue'
