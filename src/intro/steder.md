@@ -6,7 +6,12 @@
 
 * Lengde: ~1492 meter.
 * Oppmøtested: [Google maps lenke](https://maps.app.goo.gl/w2KuptS8mXHvtahw5)
-* Kart over runde: [strava](https://www.strava.com/routes/3141366574835843080)
+
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141366574835843080" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
+
+:::
 
 ## NIH banen AKA Sognsvann
 * Oppmøtested [Google maps lenke](https://maps.app.goo.gl/hw64eHsAahngRCv47)
@@ -16,7 +21,11 @@ NIH har vi flere runder vi pleier å løpe:
 ### Gaustadrunden
 
 * Lengde: ~4 km.
-* Kart over runde: [strava](https://www.strava.com/routes/3141370862576322568)
+
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141370862576322568" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
+:::
 
 ## Voldsløkka
 
@@ -25,9 +34,17 @@ NIH har vi flere runder vi pleier å løpe:
 ### Standard runde:
 
 * Lengde: ~990 meter.
-* Kart over runde: [strava](https://www.strava.com/routes/3141372052271268226)
+
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141372052271268226" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
+:::
 
 ### Langrunden
 
 * Lengde: ~1400 meter.
-* Kart over runde: [strava](https://www.strava.com/routes/3141372380330555610)
+
+::: details Kart
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141372380330555610" data-full-width="true" data-hide-elevation="true"></div>
+<component :is="'script'" src="https://strava-embeds.com/embed.js"></component>
+:::
