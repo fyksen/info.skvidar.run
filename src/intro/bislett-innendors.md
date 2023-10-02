@@ -11,7 +11,7 @@ og stopp på skulderen av banen.
 6. Posisjonere oss ut på banen i små grupper er ekstra viktig inne på Bislett av hensyn til plass. Alle grupper får sitt eget start / stopp området. Vi hjelper som vanlig til med å lage grupper med løpere som løper omtrent like fort.
 7. Siden vi løper i tid som er satt av til friidrettsklubber er det mange “eksperter” som tror de eier Bislett, ikke ta det så tungt om du skulle få litt tilsnakk av en grinebiter som er vant til å løpe alene.
 8. Etter å ha løpt ute i lang tid er det fort gjort å opparbeide seg noen (u)vaner. Husk at du er inne nå, ikke snyt, spytt eller kast opp på tartanen/rødmatta. Det er heller ikke lov å løpe i bar overkropp.
-9. Stravakette her, for de med Garmin klokke: Når du er fremme ved Bislett trykker du Meny-> Activity settings->GPS->Off. Når du skal ut for å jogge igjen trykker du Meny->Activity settings->GPS->GPS/GPS+GLONASS
+9. Stravakette her, for de med Garmin klokke: Når du er fremme ved Bislett trykker du `Meny-> Activity settings->GPS->Off`. Når du skal ut for å jogge igjen trykker du `Meny->Activity settings->GPS->GPS/GPS+GLONASS`
 
 God økt!
 
