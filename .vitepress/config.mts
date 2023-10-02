@@ -34,6 +34,7 @@ export default defineConfig({
           { text: 'Trenere', link: '/diverse/trenere' },
           { text: 'Chat', link: '/diverse/chat' },
           { text: 'Treningsfilosofi', link: '/diverse/treningsfilosofi' },
+          { text: 'Klubbtøy', link: '/diverse/klubbtoy' },
         ]
       },
 
