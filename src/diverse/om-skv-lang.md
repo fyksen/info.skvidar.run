@@ -12,7 +12,7 @@ I treningsgruppen kan vi stolt si at vi har utøvere som har tatt medalje i NM b
 Men treningsgruppen er selvfølgelig ikke bare de beste utøverne. På terskeløktene har vi tog som går fra 3:15 pr km til 4:40 pr km.
 
 ## Jeg er usikker på om treningsgruppen passer meg
-Send oss en melding, så kan vi hjelpe deg med å finne ut om gruppen kan passe deg.
+Send oss en [melding](/diverse/kontakt), så kan vi hjelpe deg med å finne ut om gruppen kan passe deg.
 
 ## Hvem er trenerne?
-Ta en titt på denne siden for å informasjon om hvem som trener oss.
+Ta en titt på [denne](/diverse/trenere) siden for å informasjon om hvem som trener oss.
