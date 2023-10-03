@@ -32,6 +32,7 @@ export default defineConfig({
       {
         text: 'Diverse',
         items: [
+          { text: 'Hvem er vi?', link: '/diverse/om-skv-lang' },
           { text: 'Trenere', link: '/diverse/trenere' },
           { text: 'Chat', link: '/diverse/chat' },
           { text: 'Treningsfilosofi', link: '/diverse/treningsfilosofi' },
