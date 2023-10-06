@@ -5,6 +5,10 @@
             <table>
                 <tbody>
                     <tr>
+                        <td>Temperatur:</td>
+                        <td>{{ weather.data.instant.details.air_temperature }}°</td>
+                    </tr>
+                    <tr>
                         <td>Vind:</td>
                         <td>{{ weather.data.instant.details.wind_speed }} m/s</td>
                     </tr>
