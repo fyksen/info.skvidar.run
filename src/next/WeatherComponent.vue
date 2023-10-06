@@ -1,7 +1,5 @@
 <template>
     <div>
-        <h3>Vær for neste treningsøkt</h3>
-        <p>Her er værinformasjonen for de kommende treningsøktene:</p>
         <div v-for="(weather, location) in sortedWeatherData" :key="location" class="weather-block">
             <h2>{{ location }} - {{ formatTime(weather.time) }} </h2>
             <table>

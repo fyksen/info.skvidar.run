@@ -6,7 +6,9 @@ prev: false
 next: false
 ---
 
-# Weather for Next Training Session
+# Vær for neste trening
+
+Dette funker sånn passe. Data er hentet fra yr.no, men tidspunkt er ikke helt riktig enda.
 
 
 
