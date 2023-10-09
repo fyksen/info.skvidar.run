@@ -1,6 +1,5 @@
 <template>
     <div>
-<<<<<<< HEAD
         <div v-if="firstWeatherData" class="weather-block">
             <h2>
                 {{ firstWeatherData[0] }} -
@@ -21,38 +20,6 @@
                     <strong>Regn neste timen:</strong> {{ getPrecipitationAmount(firstWeatherData[1].data) }} mm
                 </li>
             </ul>
-=======
-        <div v-for="(weather, location) in sortedWeatherData" :key="location" class="weather-block">
-            <h2>{{ location }} - {{ formatTime(weather.time) }} </h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Temperatur:</td>
-                        <td>{{ weather.data.instant.details.air_temperature }}°</td>
-                    </tr>
-                    <tr>
-                        <td>Vind:</td>
-                        <td>{{ weather.data.instant.details.wind_speed }} m/s</td>
-                    </tr>
-                    <tr>
-                        <td>Vindretning:</td>
-                        <td>{{ getWindDirectionEmoji(weather.data.instant.details.wind_from_direction) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Skyer:</td>
-                        <td>{{ weather.data.instant.details.cloud_area_fraction }}% {{ getCloudinessEmoji(weather.data.instant.details.cloud_area_fraction) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Luftfuktighet:</td>
-                        <td>{{ weather.data.instant.details.relative_humidity }} %</td>
-                    </tr>
-                    <tr>
-                        <td>Regn:</td>
-                        <td>{{ getPrecipitationAmount(weather.data) }} mm</td>
-                    </tr>
-                </tbody>
-            </table>
->>>>>>> 426b6abc78e6c51e6c299d9601a1fdde521a9f5d
         </div>
     </div>
 </template>
@@ -143,12 +110,3 @@ export default {
     }
 }
 </script>
-<<<<<<< HEAD
-
-<style scoped>
-.weather-icon {
-    width: 200px;
-}
-</style>
-=======
->>>>>>> 426b6abc78e6c51e6c299d9601a1fdde521a9f5d
