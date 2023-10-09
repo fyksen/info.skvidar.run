@@ -1,53 +1,43 @@
 <template>
     <div>
-        <div v-for="(weather, location) in sortedWeatherData" :key="location" class="weather-block">
-            <h2>{{ location }} - {{ formatTime(weather.time) }} </h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Vind:</td>
-                        <td>{{ weather.data.instant.details.wind_speed }} m/s</td>
-                    </tr>
-                    <tr>
-                        <td>Vindretning:</td>
-                        <td>{{ getWindDirectionEmoji(weather.data.instant.details.wind_from_direction) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Skyer:</td>
-                        <td>{{ weather.data.instant.details.cloud_area_fraction }}% {{ getCloudinessEmoji(weather.data.instant.details.cloud_area_fraction) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Luftfuktighet:</td>
-                        <td>{{ weather.data.instant.details.relative_humidity }} %</td>
-                    </tr>
-                    <tr>
-                        <td>Regn:</td>
-                        <td>{{ getPrecipitationAmount(weather.data) }} mm</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div v-if="firstWeatherData" class="weather-block">
+            <h2>
+                {{ firstWeatherData[0] }} -
+                {{ formatTime(firstWeatherData[1].time) }}
+            </h2>
+            <img :src="getSymbolUrl(firstWeatherData[1].data)" alt="Weather Symbol" />
+            <ul>
+                <li>
+                    <strong>Vind:</strong> {{ firstWeatherData[1].data.instant.details.wind_speed }} m/s - {{ getWindDirectionEmoji(firstWeatherData[1].data.instant.details.wind_from_direction) }}
+                </li>
+                <li>
+                    <strong>Skylag:</strong> {{ firstWeatherData[1].data.instant.details.cloud_area_fraction }}%
+                </li>
+                <li>
+                    <strong>Luftfuktighet:</strong> {{ firstWeatherData[1].data.instant.details.relative_humidity }} %
+                </li>
+                <li>
+                    <strong>Regn neste timen:</strong> {{ getPrecipitationAmount(firstWeatherData[1].data) }} mm
+                </li>
+            </ul>
         </div>
     </div>
 </template>
-
 
 <script>
 export default {
     data() {
         return {
             weatherData: {} // Initial empty object for weather data
-        }
+        };
     },
     computed: {
-        sortedWeatherData() {
-            // Convert the object to an array of [key, value] pairs
+        firstWeatherData() {
             const entries = Object.entries(this.weatherData);
-            // Sort the array based on the time property
             const sortedEntries = entries.sort(([, weatherA], [, weatherB]) => {
                 return new Date(weatherA.time) - new Date(weatherB.time);
             });
-            // Convert back to an object
-            return Object.fromEntries(sortedEntries);
+            return sortedEntries[0] || undefined;
         }
     },
     mounted() {
@@ -56,7 +46,6 @@ export default {
     methods: {
         async fetchWeatherData() {
             try {
-                // Get the weather data from your JSON file or API
                 const response = await fetch('/next/weather_results.json');
                 this.weatherData = await response.json();
             } catch (err) {
@@ -111,7 +100,19 @@ export default {
             else {
                 return "No data available";
             }
+        },
+        getSymbolUrl(data) {
+            // Extracting symbol code for the next 1 hour. Similar extraction can be done for other periods.
+            const symbolCode = data.next_1_hours?.summary?.symbol_code || "not_available";
+            // Building URL using the extracted symbol code
+            return `/next/symbols/${symbolCode}.png`;
         }
     }
 }
 </script>
+
+<style scoped>
+.weather-icon {
+    width: 200px;
+}
+</style>
