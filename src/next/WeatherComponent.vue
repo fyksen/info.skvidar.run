@@ -8,6 +8,9 @@
             <img :src="getSymbolUrl(firstWeatherData[1].data)" alt="Weather Symbol" />
             <ul>
                 <li>
+                    <strong>Temperatur:</strong> {{ firstWeatherData[1].data.instant.details.air_temperature }} ℃
+                </li>
+                <li>
                     <strong>Vind:</strong> {{ firstWeatherData[1].data.instant.details.wind_speed }} m/s - {{ getWindDirectionEmoji(firstWeatherData[1].data.instant.details.wind_from_direction) }}
                 </li>
                 <li>
