@@ -1,4 +1,4 @@
-# TRENINGSLEIR Fuerteventura januar 2024
+# Treningsleir Fuerteventura januar 2024
 
 
 Bli med på treningsleir til fine Playitas Resort på Fuerteventura!
