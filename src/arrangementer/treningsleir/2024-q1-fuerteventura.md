@@ -7,7 +7,7 @@ Her har vi treningsmuligheter rett ved hotellet, for både de som ønsker løpin
 
 
 ::: warning Frist
-Påmeldingsfrist med betaling er 14.november og det er BINDENDE påmelding. 
+Påmeldingsfrist med betaling er 14.november og det er **bindende** påmelding. 
 :::
 
 
@@ -65,9 +65,9 @@ Vi flyr med SAS. Prisen er inkludert 20 kg innsjekket bagasje + 5 kg håndbagasj
 * ​​Utreise fra Oslo til Fuerteventura den 19. januar 07:05 - 11:45
 * Hjemreise fra Fuerteventura til Oslo den 26. januar 12:45 - 19:15
 
+## Program for uken:
 
-## Avbestillingsbeskyttelse (valgfritt):
-Avbestillingsbeskyttelse koster 445kr per pers, og anbefales. Foruten at den som blir syk får refundert penger tilbake igjen, så vil de gjenværende på rommet slippe og betale ekstra for å beholde rommet til samme pris, om de har denne avbestillingsbeskyttelsen.
+Mer informasjon gjeldende treningsprogram for uken vil komme. Noen av aktivitetene krever ekstrakostnader, som leie av bane i det olympiske bassenget eller buss + inngang på løpebanen. Dette kommer vi tilbake til.
 
 ## Spørsmål og svar
 
