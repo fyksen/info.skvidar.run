@@ -22,5 +22,5 @@ Innholdsfortegnelse:
 ## Tenereife/Granca <Badge type="tip" text="Treningsleir" />  <Badge type="info" text="q1 2024" />
 
 * Dato: Januar eller februar
-* Mer informasjon kommer.
+* Mer informasjon på [denne](/arrangementer/treningsleir/2024-02-fuerteventura) siden.
 
