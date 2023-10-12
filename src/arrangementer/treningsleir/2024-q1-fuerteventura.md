@@ -10,4 +10,4 @@ Endelig er det tid for treningsleir i de første mnd i året igjen.
 
 --- 
 
-![Bilde fra Playa de las Américas](/arrangementer/2024-02-fuerteventura/treningsleir.jpg)
+![Bilde fra Playa de las Américas](/arrangementer/2024-q1-fuerteventura/treningsleir.jpg)
