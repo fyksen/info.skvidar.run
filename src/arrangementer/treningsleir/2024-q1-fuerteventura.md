@@ -47,9 +47,8 @@ onMounted(() => {
 Om du har problemer med å bruke den innebygde påmeldingen vår, kan du melde deg på direkte [her](https://tickets.skvidar.run/SKV/treningsleir-V23/).
 :::
 
-## Praktisk info
 
-### Pris: 
+## Pris
 Siden vi er så mange, og er ute i litt dårlig tid (de fleste andre booket for nesten ett år siden), er det ikke nok rom til at alle billettene har lik pris. Vi opererer etter “førstemann til mølla” prinsippet, og har følgende å velge mellom: 
 
 * 32 plasser i 2-romsleiligheter delt med tre andre, med balkong uten spesifisert utsikt. 10 145 kr/person
@@ -58,14 +57,14 @@ Siden vi er så mange, og er ute i litt dårlig tid (de fleste andre booket for 
 
 Inkludert er flyreise, hotell, transport mellom flyplass og hotell, samt frokost og middag. 
 
-## Reise: 
+## Reise
 Vi flyr med SAS. Prisen er inkludert 20 kg innsjekket bagasje + 5 kg håndbagasje
 
 
 * ​​Utreise fra Oslo til Fuerteventura den 19. januar 07:05 - 11:45
 * Hjemreise fra Fuerteventura til Oslo den 26. januar 12:45 - 19:15
 
-## Program for uken:
+## Program for uken
 
 Mer informasjon gjeldende treningsprogram for uken vil komme. Noen av aktivitetene krever ekstrakostnader, som leie av bane i det olympiske bassenget eller buss + inngang på løpebanen. Dette kommer vi tilbake til.
 
