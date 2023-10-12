@@ -86,7 +86,7 @@ Slack er et chatteprogram som vi benytter internt i SKV Lang. Les mer [her](dive
 ### Ofte stilte spørsmål
 
 ::: details Hvor mye koster det å ta med sykkel?
-Vi har ikke sjekket, men sjekker om vi får fårespørsel om det.
+Vi har ikke sjekket, men sjekker om vi får forespørsel om det.
 :::
 
 ::: details Må man være medlem av SK Vidar for å bli med?
