@@ -6,8 +6,10 @@ Bli med på treningsleir til fine Playitas Resort på Fuerteventura!
 Her har vi treningsmuligheter rett ved hotellet, for både de som ønsker løping, svømming og annen alternativ trening. Vi har fått tak i 50 plasser. Under følger en forklaring på romalternativer. Resten av romønsker, innhenting av allergier, passnummer osv. tar vi etter påmelding. 
 
 
-::: warning Frist
-Påmeldingsfrist med betaling er 14.november og det er **bindende** påmelding. 
+::: warning Frist og tidspunkt
+* Påmeldingsfrist med betaling er 14.november og det er **bindende** påmelding.
+
+* Dato for reise: 19-26 Januar. Uke nummer: 3-4.
 :::
 
 
