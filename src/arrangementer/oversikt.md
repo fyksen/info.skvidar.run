@@ -2,19 +2,19 @@
 
 
 ## Hytteplanmila <Badge type="tip" text="løp, buss, fest" /> <Badge type="info" text="21. Oktober, 2023" />
-* Buss til og fra Hytteplanmila
+* Buss til og fra Hytteplanmila.
 * Etterpåfest på Chateau Neuf.
 * Påmelding [her](https://neartail.com/sm/MgpJHJ-OX)
 
 ## Julebord <Badge type="tip" text="Fest" /> <Badge type="info" text="16. November, 2023" />
 
 * [Mer info](https://www.facebook.com/events/1359388694612729/)
-* Dato: 16. November
+* Dato: 16. november.
 * [Påmelding](/arrangementer/sosialt/julebord-23/)
 
 ## Tenereife/Granca <Badge type="tip" text="Treningsleir" />  <Badge type="info" text="q1 2024" />
 
-* Dato: 19-26 januar.
+* Dato: 19.–26. januar.
 * Mer informasjon på [denne](/arrangementer/treningsleir/2024-q1-fuerteventura) siden.
 
 

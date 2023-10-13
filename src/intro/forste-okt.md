@@ -6,7 +6,7 @@ Vi har etterhvert blitt en stor løpeklubb. Noen ganger er vi så mange som 150 
 
 ### Medlemsskap?
 
-* Det er helt greit å komme på noen treninger med oss, selv om du ikke er medlem. Det er fint å se om løpegruppa passer deg, før du betaler.
+* Det er helt greit å komme på noen treninger med oss, selv om du ikke er medlem. Det er fint å se om løpegruppa passer deg før du betaler.
 
 ::: info
 Etterhvert håper vi at du melder deg inn [her](https://club.spond.com/landing/signup/skvidar?fbclid=IwAR1ql8u72it5s3n-UZy_hc5ZVI_6bX5mzWpLEl0cRuDvKxgB1-KsANnBoLg).
@@ -14,9 +14,9 @@ Etterhvert håper vi at du melder deg inn [her](https://club.spond.com/landing/s
 
 ### Påmelding og Facebook
 
-* SK Vidar lang har en lukket Facebook-gruppe som treningsopplegg og annen informasjon for uken blir publisert hver søndag (noen ganger mandag morgen).
-* Som oftest har vi trening tirsdag, torsdag og lørdar.
-* Dagen før hver trening legges det ut en post på 
+* SK Vidar lang har en lukket Facebook-gruppe, der treningsopplegg og annen informasjon for uken blir publisert hver søndag (noen ganger mandag morgen).
+* Som oftest har vi trening tirsdag, torsdag og lørdag.
+* Dagen før hver trening legges det ut en post i gruppa.
 
 ::: details Eksempel på påmeldingspost
 # Påmelding lørdagstreningfra NIH banen #week26
@@ -56,9 +56,9 @@ Race prep
 5-6x300m ned mot 1500-fart p.100 m jogg / rask gange
 :::
 
-* Meld deg på økta ved å "reagere" på Facebookposten
-* Dette gjør du ved å holde over "tommelen opp iconet på posten, og velge emojien".
-* Velg den emojien som passer for ditt nivå. I posten står det hvilke 10km løpstider som er hvilken emoji.
+* Meld deg på økta ved å «reagere» på Facebook-posten.
+* Dette gjør du ved å holde over «tommelopp-ikonet» på posten, og så velge emojien.
+* Velg emojien som passer for ditt nivå. I posten står det hvilke 10 km-løpstider som er hvilken emoji.
 
 ::: details Her er en video som viser hvordan
 
@@ -75,8 +75,8 @@ Race prep
 ## Gjennomføring av økt
 
 * Det er vanlig å komme ferdig oppvarmet til trening.
-* Når treningen starter deler Gustav inn i grupper. Ofte er det kjegler med gruppenummer på, som gjør det enklere å finne gjengen sin.
-* Er du ny på trening hjelper vi deg med å finne "riktig" tog.
+* Når treningen starter, deler Gustav inn i grupper. Ofte er det kjegler med gruppenummer på, som gjør det enklere å finne gjengen sin.
+* Er du ny på trening, hjelper vi deg med å finne «riktig» tog.
 
 ::: warning Dynamisk gruppeinndeling
 Togene er dynamiske. Har du en god dag, kan du gå opp et tog. Er du tung, kan du gjerne gå ned et tog eller to. Togene endrer seg hele tiden.
