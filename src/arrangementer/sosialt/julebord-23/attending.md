@@ -20,25 +20,6 @@ Sorter på: <button @click="sortBy('name')">Navn</button> | <button @click="sort
     </tbody>
 </table>
 
-<style>
-.attendees-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-}
-
-.attendees-table th, .attendees-table td {
-    border: 1px solid #e0e0e0;
-    padding: 8px 12px;
-    text-align: left;
-}
-
-.attendees-table th {
-    background-color: #f5f5f5;
-    font-weight: 600;
-}
-</style>
-
 <script setup>
 import { ref, onMounted } from 'vue'
 
