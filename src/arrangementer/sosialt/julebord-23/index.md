@@ -3,6 +3,17 @@
 * Julebord informasjon ligger ute på [Facebook eventet](https://www.facebook.com/events/1359388694612729/).
 * Lurer du på hvem som har kjøpt billett, kan du sjekke det [her](./attending).
 
+### Vi har gleden av å invitere deg til julebord med SK Vidar på Bislett i Seb Coe salen!
+
+## Informasjon
+
+* Ta med drikke selv.
+* Kleskode pent.
+* Dørene åpner fra 18:30, mat blir servert kl 19.
+* Mat blir bestilt fra Strøm Larsen
+* Arrangementet er åpent for alle medlemmer av SK Vidar og OSI Friidrett.
+
+
 ::: info Dato
 Datoen er torsdag 16. november. Arrangementet åpner på ettermiddag. Vi kommer med tidspunkt ved en senere anledning.
 :::
