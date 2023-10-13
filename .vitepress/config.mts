@@ -45,6 +45,7 @@ export default defineConfig({
         text: 'Arrangementer',
         items: [
           { text: 'Oversikt', link: '/arrangementer/oversikt' },
+          { text: '2023-Q4-Julebord', link: '/arrangementer/sosialt/julebord-23/' },
           { text: '2024-Q1-Fuerteventura', link: '/arrangementer/treningsleir/2024-q1-fuerteventura' },
           
         ]

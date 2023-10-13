@@ -1,8 +1,9 @@
 # Påmeldt til julebord 23
 
-# Attendees
+* Tilbake til [påmelding](/arrangementer/sosialt/julebord-23/).
 
-Sort by: <button @click="sortBy('name')">Name</button> | <button @click="sortBy('order_datetime')">Order Date and Time</button>
+
+Sorter på: <button @click="sortBy('name')">Navn</button> | <button @click="sortBy('order_datetime')">Bestillingstidspunkt</button>
 
 <table class="attendees-table">
     <thead>
