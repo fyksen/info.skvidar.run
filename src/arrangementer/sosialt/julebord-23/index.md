@@ -3,6 +3,10 @@
 * Julebord informasjon ligger ute på [Facebook eventet](https://www.facebook.com/events/1359388694612729/).
 * Lurer du på hvem som har kjøpt billett, kan du sjekke det [her](./attending).
 
+::: info Dato
+Datoen er torsdag 16. november. Arrangementet åpner på ettermiddag. Vi kommer med tidspunkt ved en senere anledning.
+:::
+
 ## Påmelding
 
 <script setup>
