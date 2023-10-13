@@ -1,4 +1,4 @@
-# Påmeldt til julebord 23
+# Påmelding til julebord 23
 
 * Tilbake til [påmelding](/arrangementer/sosialt/julebord-23/).
 
