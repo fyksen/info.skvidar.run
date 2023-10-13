@@ -1,7 +1,9 @@
 # Julebord 23
 
-* Julebord informasjon ligger ute på [Facebook eventet](https://www.facebook.com/events/1359388694612729/).
-* Lurer du på hvem som har kjøpt billett, kan du sjekke det [her](./attending).
+Torsdag 16. november blir det julebord i Seb Coe salen på Bislett, med middag og underholdning.
+
+- Julebord informasjon ligger ute på [Facebook eventet](https://www.facebook.com/events/1359388694612729/).
+- Lurer du på hvem som har kjøpt billett, kan du sjekke det [her](./attending).
 
 ## Påmelding
 
@@ -25,9 +27,9 @@ onMounted(() => {
 });
 </script>
 
-
 <pretix-widget event="https://tickets.skvidar.run/SKV/julebord23/"></pretix-widget>
 <noscript>
+
   <div class="pretix-widget">
     <div class="pretix-widget-info-message">
       JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please <a target="_blank" rel="noopener" href="https://tickets.skvidar.run/SKV/julebord23/">click here</a>.
