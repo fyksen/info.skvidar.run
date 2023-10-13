@@ -10,6 +10,7 @@
 
 * [Mer info](https://www.facebook.com/events/1359388694612729/)
 * Dato: 16. November
+* [Påmelding](/arrangementer/sosialt/julebord-23/)
 
 ## Tenereife/Granca <Badge type="tip" text="Treningsleir" />  <Badge type="info" text="q1 2024" />
 
