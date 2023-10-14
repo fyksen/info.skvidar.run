@@ -40,3 +40,23 @@ fyksen@xps-13:~/Projects/info.skvidar.run$ npm run docs:dev
 #   ➜  Network: use --host to expose
 #   ➜  press h to show help
 ```
+
+## Custom scripts:
+
+Dette er scripts som er laget for info.skvidar.run
+
+### /src/arrangementer/attendees.vue
+
+Dette er et script som kan brukes for å hente inn en liste over hvor mange deltakere det kommer til et arrangement.
+For å bruke scriptet, kan man skrive:
+
+```
+<script setup>
+import AttendeesTable from '/arrangementer/attendees.vue'
+</script>
+
+<AttendeesTable fetchUrl="/arrangementer/attendees/julebord23_attendees.json"/>
+```
+
+Merk at AttendeesTable linjen henter en .json fil. .json filene blir hentet hvert 5 minutt via et python script fra pretix (tickets.skvidar.run).
+Formatet er /arrangementer/attendees/<slug>_attendees.json, hvor slug er shortname for arrangementet i pretix (tickets.skvidar.run).
