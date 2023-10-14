@@ -59,4 +59,4 @@ import AttendeesTable from '/arrangementer/attendees.vue'
 ```
 
 Merk at AttendeesTable linjen henter en .json fil. .json filene blir hentet hvert 5 minutt via et python script fra pretix (tickets.skvidar.run).
-Formatet er /arrangementer/attendees/<slug>_attendees.json, hvor slug er shortname for arrangementet i pretix (tickets.skvidar.run).
+Formatet er /arrangementer/attendees/`<slug>`_attendees.json, hvor slug er shortname for arrangementet i pretix (tickets.skvidar.run).
