@@ -2,14 +2,13 @@
 
 * Tilbake til [påmelding](/arrangementer/sosialt/julebord-23/).
 
-
-Sorter på: <button @click="sortBy('name')">Navn</button> | <button @click="sortBy('order_datetime')">Bestillingstidspunkt</button>
+* Antall påmeldte: **{{ attendees.length }}**
 
 <table class="attendees-table">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Order Date and Time</th>
+            <th @click="sortBy('name')">Name <span v-if="sortKey === 'name'">{{ sortOrder === 1 ? '▲' : '▼' }}</span></th>
+            <th @click="sortBy('order_datetime')">Order Date and Time <span v-if="sortKey === 'order_datetime'">{{ sortOrder === 1 ? '▲' : '▼' }}</span></th>
         </tr>
     </thead>
     <tbody>
@@ -27,7 +26,6 @@ const attendees = ref([])
 const sortKey = ref('name') // default sort by name
 const sortOrder = ref(1)  // 1 for ascending, -1 for descending
 
-// Fetch attendee data when component is mounted
 onMounted(async () => {
   try {
     const response = await fetch('/arrangementer/attendees/julebord23_attendees.json')
@@ -51,3 +49,9 @@ const sortBy = (key) => {
   })
 }
 </script>
+
+<style scoped>
+.attendees-table th {
+    cursor: pointer;
+}
+</style>
