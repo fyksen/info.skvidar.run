@@ -2,15 +2,18 @@
 import { ref, onMounted } from 'vue'
 
 export default {
-  props: ['fetchUrl'],
+  props: ['eventId'],
   setup(props) {
     const attendees = ref([])
     const sortKey = ref('name')
     const sortOrder = ref(1)
+    
+    // Fetch URL is built using the eventId prop
+    const fetchUrl = `/arrangementer/attendees/${props.eventId}_attendees.json`
 
     onMounted(async () => {
       try {
-        const response = await fetch(props.fetchUrl)
+        const response = await fetch(fetchUrl)
         attendees.value = await response.json()
       } catch (e) {
         console.error('Failed to fetch attendees:', e)
@@ -31,7 +34,6 @@ export default {
       })
     }
 
-
     return {
       attendees,
       sortKey,
@@ -41,6 +43,7 @@ export default {
   }
 }
 </script>
+
 
 <template>
     <div>

@@ -15,35 +15,14 @@ Her har vi treningsmuligheter rett ved hotellet, for både de som ønsker løpin
 
 ## Påmelding
 
-
 <script setup>
-import { onMounted } from 'vue';
-
-onMounted(() => {
-  // Add the CSS to the document's head
-  const cssLink = document.createElement("link");
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
-  cssLink.href = "https://tickets.skvidar.run/SKV/treningsleir-V23/widget/v1.css";
-  document.head.appendChild(cssLink);
-
-  // Add the JavaScript to the document's head
-  const jsScript = document.createElement("script");
-  jsScript.type = "text/javascript";
-  jsScript.src = "https://tickets.skvidar.run/widget/v1.en.js";
-  jsScript.async = true;
-  document.head.appendChild(jsScript);
-});
+import PretixWidgetCompat from '/arrangementer/PretixWidgetCompat.vue'
+import AttendeesTable from '/arrangementer/attendees.vue'
 </script>
 
-<pretix-widget event="https://tickets.skvidar.run/SKV/treningsleir-V23/"></pretix-widget>
-<noscript>
-  <div class="pretix-widget">
-    <div class="pretix-widget-info-message">
-      JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please <a target="_blank" rel="noopener" href="https://tickets.skvidar.run/SKV/treningsleir-V23/">click here</a>.
-    </div>
-  </div>
-</noscript>
+::: details Kjøp billett
+<PretixWidgetCompat eventId="treningsleir-V23" />
+:::
 
 ::: info Problemer med påmelding?
 Om du har problemer med å bruke den innebygde påmeldingen vår, kan du melde deg på direkte [her](https://tickets.skvidar.run/SKV/treningsleir-V23/).
@@ -77,7 +56,7 @@ Har du et spørsmål, ikke nøl med å stille det.  Her er måter du kan kontakt
 * Skriv til oss på Slack i kanalen [#treningsleir-2024-fuerteventura](https://join.slack.com/share/enQtNjAyNjUzODQwNDU0OS04MzhkYzllMWJiZmU1MDFhZjM4YzM3ZjAyYzY1Y2EzNjdiZjI1ZDUwY2VlODkzYjU5ZWQ0ZGNlNWQ5ZGQ2MGQ4) kanalen.
 
 ::: info Slack
-Slack er et chatteprogram som vi benytter internt i SKV Lang. Les mer [her](diverse/chat)
+Slack er et chatteprogram som vi benytter internt i SKV Lang. Les mer [her](/diverse/chat)
 :::
 
 * Skriv en messenger-chat til brukeren [SK Vidar Lang](https://www.facebook.com/SKVidarLang) på Facebook.
@@ -93,4 +72,10 @@ Vi har ikke sjekket, men sjekker om vi får forespørsel om det.
 
 ::: details Må man være medlem av SK Vidar for å bli med?
 Ja, dette er et tilbud til betalende medlemmer av SK Vidar og OSI Friidrett.
+:::
+
+## Hvem kommer?
+
+::: details Disse har til nå kjøpt billett
+<AttendeesTable eventId="treningsleir-V23"/>
 :::

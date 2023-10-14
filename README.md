@@ -45,6 +45,16 @@ fyksen@xps-13:~/Projects/info.skvidar.run$ npm run docs:dev
 
 Dette er scripts som er laget for info.skvidar.run
 
+For å bruke flere scripts på samme side, må man kjøre script setup med flere scripts. F.eks:
+
+```
+<script setup>
+import PretixWidgetCompat from '/arrangementer/PretixWidgetCompat.vue'
+import AttendeesTable from '/arrangementer/attendees.vue'
+</script>
+```
+---
+
 ### /src/arrangementer/attendees.vue
 
 Dette er et script som kan brukes for å hente inn en liste over hvor mange deltakere det kommer til et arrangement.
@@ -55,8 +65,22 @@ For å bruke scriptet, kan man skrive:
 import AttendeesTable from '/arrangementer/attendees.vue'
 </script>
 
-<AttendeesTable fetchUrl="/arrangementer/attendees/julebord23_attendees.json"/>
+<AttendeesTable eventId="julebord23"/>
 ```
 
 Merk at AttendeesTable linjen henter en .json fil. .json filene blir hentet hvert 5 minutt via et python script fra pretix (tickets.skvidar.run).
-Formatet er /arrangementer/attendees/`<slug>`_attendees.json, hvor slug er shortname for arrangementet i pretix (tickets.skvidar.run).
+EventId, i dette tilfelle `julebord23` er det pretix kaller slug. Slug er det samme som shortname til et arrangement.
+Logg inn på tickets.skvidar.run for å se hva shortnamet til arrangementet er.
+
+### /src/arrangementer/PretixWidgetCompat.vue
+
+Dette er et script som henter inn butikken til tickets.skvidar.run, og embedder det på siden.
+```
+<script setup>
+import AttendeesTable from '/arrangementer/PretixWidgetCompat.vue'
+</script>
+
+<PretixWidgetCompat eventId="julebord23" />
+```
+
+På samme måte som attendees scriptet, så må man hente eventId fra slug på pretix.

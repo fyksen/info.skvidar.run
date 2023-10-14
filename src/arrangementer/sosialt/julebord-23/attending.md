@@ -2,8 +2,12 @@
 
 * Tilbake til [påmelding](/arrangementer/sosialt/julebord-23/).
 
+::: details
+
 <script setup>
 import AttendeesTable from '/arrangementer/attendees.vue'
 </script>
 
-<AttendeesTable fetchUrl="/arrangementer/attendees/julebord23_attendees.json"/>
+<AttendeesTable eventId="julebord23"/>
+
+:::
