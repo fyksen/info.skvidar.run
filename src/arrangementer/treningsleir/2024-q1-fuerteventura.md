@@ -35,6 +35,7 @@ Siden vi er så mange, og er ute i litt dårlig tid (de fleste andre booket for 
 * 32 plasser i 2-romsleiligheter delt med tre andre, med balkong uten spesifisert utsikt. 10 145 kr/person.
 * 16 plasser i 2-romsleiligheter delt med tre andre, med balkong med havutsikt. 11 445 kr/person.
 * 2 plasser i 2-romsleilighet delt med én annen, med balkong med havutsikt. 11 745 kr/person.
+* 10 plasser i 1-romsleilighet delt med én annen, med balkong uten spesifisert utsikt. 11 064 kr/person.
 
 Inkludert er flyreise, hotell, transport mellom flyplass og hotell, samt frokost og middag. 
 
