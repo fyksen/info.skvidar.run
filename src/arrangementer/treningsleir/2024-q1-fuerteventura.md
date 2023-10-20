@@ -54,7 +54,8 @@ Mer informasjon gjeldende treningsprogram for uken vil komme. Noen av aktivitete
 
 Har du et spørsmål, ikke nøl med å stille det.  Her er måter du kan kontakte treningsleir-teamet på:
 
-* Skriv til oss på Slack i kanalen [#treningsleir-2024-fuerteventura](https://join.slack.com/share/enQtNjAyNjUzODQwNDU0OS04MzhkYzllMWJiZmU1MDFhZjM4YzM3ZjAyYzY1Y2EzNjdiZjI1ZDUwY2VlODkzYjU5ZWQ0ZGNlNWQ5ZGQ2MGQ4) kanalen.
+* Skriv til oss på Slack i kanalen [#treningsleir-2024-fuerteventura](https://join.slack.com/t/skvidar/shared_invite/zt-25gq4jieq-NTjoVUjJlMi_lhEcAtGD3Q) kanalen.
+
 
 ::: info Slack
 Slack er et chatteprogram som vi benytter internt i SKV Lang. Les mer [her](/diverse/chat)
