@@ -17,7 +17,7 @@ Du kan lese mer om hvordan slack fungerer [her](https://websetnet.net/no/what-is
 
 ## Hvordan bli med?
 
-* Klikk på følgende lenke: https://join.slack.com/t/skvidar/shared_invite/zt-23khi8ler-6L44IQAv7jJF_ejSykwQKg
+* Klikk på følgende lenke: https://join.slack.com/t/skvidar/shared_invite/zt-25gq4jieq-NTjoVUjJlMi_lhEcAtGD3Q
 
 * Vi anbefaler å bruke privat e-post. Et arbeidsforhold er ikke nødvendigvis evigvarende, men det er Vidartilhørigheten <3 Ved å bruke privat e-post har du tilgang til slack selv ved jobbytte.
 * Bruk fullt navn og bilde slik at du er lett å kjenne igjen. Hvis du vil ha et tullenavn, legg det inn som “display name”.
@@ -41,4 +41,4 @@ Lag en kort description med formålet til channel’en, slik at det er lett for 
 
 ## Trenger hjelp eller har spørsmål?
 
-Ta kontakt med Mathilde Theisen eller Anders Nordby, du finner oss under medlemmer på Facebook-gruppen.
+Ta kontakt med [Mathilde Theisen](https://www.facebook.com/mathilde.theis1) eller [Anders Nordby](https://www.facebook.com/anordby/), du finner oss under medlemmer på Facebook-gruppen.
