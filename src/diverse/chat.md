@@ -17,10 +17,14 @@ Du kan lese mer om hvordan Slack fungerer [her](https://websetnet.net/no/what-is
 
 ## Hvordan bli med?
 
-* Klikk på følgende lenke: https://join.slack.com/t/skvidar/shared_invite/zt-25gq4jieq-NTjoVUjJlMi_lhEcAtGD3Q
-
+* Klikk på [invitasjonslenken](https://join.slack.com/t/skvidar/shared_invite/zt-25gq4jieq-NTjoVUjJlMi_lhEcAtGD3Q) for å registrere deg.
 * Vi anbefaler å bruke privat epost. Et arbeidsforhold er ikke nødvendigvis evigvarende, men det er Vidartilhørigheten <3 Ved å bruke privat epost har du tilgang til Slack selv ved jobbytte.
+Har du allerede Slack-bruker tilknyttet jobb vil den ikke fungere på alle kanaler pga. vi har gratis-versjonen av Slack.
 * Bruk fullt navn og bilde slik at du er lett å kjenne igjen. Hvis du vil ha et tullenavn, legg det inn som «display name».
+
+## Pålogging
+
+* URL for pålogging er [skvidar.slack.com](https://skvidar.slack.com/).
 
 ## Mentions på Slack
 
