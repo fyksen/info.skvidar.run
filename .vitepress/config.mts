@@ -25,7 +25,7 @@ export default defineConfig({
         items: [
           { text: 'Første økt', link: '/intro/forste-okt' },
           { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
-          { text: 'bislett-innendors', link: '/intro/bislett-innendors' },        
+          { text: 'Innendørsløping på Bislett', link: '/intro/bislett-innendors' },        
         ]
       },
 
@@ -44,7 +44,10 @@ export default defineConfig({
       {
         text: 'Arrangementer',
         items: [
-          { text: 'Oversikt', link: '/arrangementer/oversikt' },  
+          { text: 'Oversikt', link: '/arrangementer/oversikt' },
+          { text: '2023-Q4-Julebord', link: '/arrangementer/sosialt/julebord-23/' },
+          { text: '2024-Q1-Fuerteventura', link: '/arrangementer/treningsleir/2024-q1-fuerteventura' },
+          
         ]
       }      
 

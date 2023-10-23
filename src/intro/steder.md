@@ -1,21 +1,21 @@
 # Intervallrunder og oppmøtesteder
 
-Gjennom året løper vi på forskjellige steder. Denne siden er et forsøk på å gjøre det enklere for løperne våre å finne frem, og skjønne hvilke intervallrunder vi løper.
+Gjennom året løper vi på forskjellige steder. Denne siden er et forsøk på å gjøre det enklere for løperne våre å finne frem og skjønne hvilke intervallrunder vi løper.
 
 Her er listen over løyper:
 [[toc]]
 
-## NG - Nordre Gravlund
+## NG - Nordre gravlund
 
 * Lengde: ~1492 meter.
-* Oppmøtested: [Google maps lenke](https://maps.app.goo.gl/w2KuptS8mXHvtahw5)
+* Oppmøtested: [Google Maps-lenke](https://maps.app.goo.gl/w2KuptS8mXHvtahw5)
 
 ::: details Kart
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141366574835843080" data-full-width="true"></div>
 :::
 
-## NIH banen AKA Sognsvann
-* Oppmøtested [Google maps lenke](https://maps.app.goo.gl/hw64eHsAahngRCv47)
+## NIH-banen, AKA Sognsvann
+* Oppmøtested [Google Maps-lenke](https://maps.app.goo.gl/hw64eHsAahngRCv47)
 
 NIH har vi flere runder vi pleier å løpe:
 
@@ -30,7 +30,7 @@ NIH har vi flere runder vi pleier å løpe:
 
 ## Voldsløkka
 
-* Oppmøtested: [Google maps lenke](https://maps.app.goo.gl/QSc4MhcsnDXifKwA7)
+* Oppmøtested: [Google Maps-lenke](https://maps.app.goo.gl/QSc4MhcsnDXifKwA7)
 
 ### Standard runde:
 
@@ -48,11 +48,11 @@ NIH har vi flere runder vi pleier å løpe:
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3141372380330555610" data-full-width="true"></div>
 :::
 
-## Frognerkilen AKA Frognerstranda
+## Frognerkilen, AKA Frognerstranda
 
-Vi løper ofte Frognerstranda på vinteren. Det er is og snøfritt nesten hele året. Vi løper typisk frem og tilbake, og måler i minutter istedenfor meter. Kartet er et eksempel, for å vise hvor man kan løpe.
+Vi løper ofte Frognerstranda på vinteren. Det er is- og snøfritt nesten hele året. Vi løper typisk frem og tilbake, og måler i minutter istedenfor meter. Kartet er et eksempel for å vise hvor man kan løpe.
 
-* Oppmøtested [Google maps lenke](https://maps.app.goo.gl/xEgGYeTBZBsb2JLb9)
+* Oppmøtested [Google Maps-lenke](https://maps.app.goo.gl/xEgGYeTBZBsb2JLb9)
 * Lengde: Frem og tilbake på minutter.
 
 ::: details Kart

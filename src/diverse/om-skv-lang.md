@@ -4,12 +4,12 @@ Treningsgruppen SK Vidar Lang er et treningsmiljø i klubben SK Vidar. Tidligere
 
 ## Hvem er i målgruppen?
 
-Vi tar sikte på å være den beste langdistansegruppen i verden for personer mellom 18-35 år som balanserer løping med andre "viktigere" ting i livet. Vi jobber daglig for å få et så viralt miljø som mulig. Vi ønsker en treningsgruppe som har balanse mellom gutter og jenter, og hvor "unge voksne" utgjør den største delen av gruppen.
+Vi tar sikte på å være den beste langdistansegruppen i verden for personer mellom 18–35 år som balanserer løping med andre «viktigere» ting i livet. Vi jobber daglig for å få et så viralt miljø som mulig. Vi ønsker en treningsgruppe som har balanse mellom gutter og jenter, og hvor «unge voksne» utgjør den største delen av gruppen.
 
 ## Hvilket løpenivå ligger treningsgruppa på?
 I treningsgruppen kan vi stolt si at vi har utøvere som har tatt medalje i NM baneløp, NM terreng og representert Norge i internasjonale mesterskap. Dette er resultater som har kommet mens de har vært i treningsgruppen vår.
 
-Men treningsgruppen er selvfølgelig ikke bare de beste utøverne. På terskeløktene har vi tog som går fra 3:15 pr km til 4:40 pr km.
+Men treningsgruppen er selvfølgelig ikke bare de beste utøverne. På terskeløktene har vi tog som går fra 3:15 pr km til 5:10 pr km.
 
 ## Jeg er usikker på om treningsgruppen passer meg
 Send oss en [melding](/diverse/kontakt), så kan vi hjelpe deg med å finne ut om gruppen kan passe deg.
