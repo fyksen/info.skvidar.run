@@ -10,6 +10,9 @@ hero:
       text: Til wiki
       link: /intro/forste-okt
     - theme: alt
+      text: Slack-chat
+      link: /diverse/chat
+    - theme: alt
       text: Facebook-gruppe
       link: https://www.facebook.com/groups/314712537171067
 
