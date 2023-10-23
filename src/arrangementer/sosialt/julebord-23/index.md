@@ -35,12 +35,7 @@ import AttendeesTable from '/arrangementer/attendees.vue'
 
 Ikke nøl med å stille det.  Her er måter du kan kontakte julebord-teamet på:
 
-* Skriv til oss på Slack i kanalen [#general](https://join.slack.com/t/skvidar/shared_invite/zt-24vtoi607-PNFX9Doan9JOelvmMkKJbg).
-
-::: info Hva er Slack?
-Slack er et chatteprogram som vi benytter internt i SKV Lang. Les mer [her](/diverse/chat)
-:::
-
+* Skriv til oss på [Slack](/diverse/chat) i kanalen [#general](https://skvidar.slack.com/archives/C05SB90E7E3).
 * Skriv en messenger-chat til brukeren [SK Vidar Lang](https://www.facebook.com/SKVidarLang) på Facebook.
 * Skriv en messenger-chat til [Anne-Line](https://www.facebook.com/annelmc).
 * Skriv en messenger-chat til [Mathilde](https://www.facebook.com/mathilde.theis1).
