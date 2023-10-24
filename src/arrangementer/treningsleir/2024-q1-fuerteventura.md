@@ -1,7 +1,7 @@
 # Treningsleir Fuerteventura januar 2024
 
 
-Bli med på treningsleir til fine Playitas Resort på Fuerteventura!
+Bli med på treningsleir til fine [Playitas Resort på Fuerteventura](https://www.playitas.net/)!
 
 Her har vi treningsmuligheter rett ved hotellet, for både de som ønsker løping, svømming og annen alternativ trening. Vi har fått tak i 50 plasser. Under følger en forklaring på romalternativer. Resten av romønsker, innhenting av allergier, passnummer osv. tar vi etter påmelding. 
 
