@@ -43,6 +43,45 @@ Lag en kort description med formålet til kanalen, slik at det er lett for andre
 
 >Ha så få private kanaler som mulig, vi ønsker å være et åpent og inkluderende miljø <3
 
+## Videoguide
+
+Vi er så heldige at Mathilde har laget konsise videoguider av de mest nyttige slack-funksjonene.
+
+#### Påmelding til økt og reaksjoner
+
+<video controls>
+  <source src="/ressurser/chat/slack_oktpaamelding.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Slack profil
+
+<video controls>
+  <source src="/ressurser/chat/slack_profil.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Justere push-varsler
+
+<video controls>
+  <source src="/ressurser/chat/slack_notifications.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Sende direktemeldinger
+
+<video controls>
+  <source src="/ressurser/chat/slack_direct_message.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### Utforske grupper
+
+<video controls>
+  <source src="/ressurser/chat/slack_direct_message.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Hjelp
 ::: info Trenger du hjelp eller har spørsmål?
 
