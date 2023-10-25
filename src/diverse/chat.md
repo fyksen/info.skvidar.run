@@ -47,40 +47,43 @@ Lag en kort description med formålet til kanalen, slik at det er lett for andre
 
 Vi er så heldige at Mathilde har laget konsise videoguider av de mest nyttige slack-funksjonene.
 
-#### Påmelding til økt og reaksjoner
-
+::: details Påmelding  til økt, reaksjoner
 <video controls>
-  <source src="/ressurser/chat/slack_oktpaamelding.m4v" type="video/mp4">
+  <source src="/ressurser/chat/slack_oktpaamelding.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
 
-#### Slack profil
-
+::: details Rediger profil
 <video controls>
-  <source src="/ressurser/chat/slack_profil.m4v" type="video/mp4">
+  <source src="/ressurser/chat/slack_profil.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
 
-#### Justere push-varsler
-
+::: details Justere push-varsler
 <video controls>
-  <source src="/ressurser/chat/slack_notifications.m4v" type="video/mp4">
+  <source src="/ressurser/chat/slack_notifications.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
 
-#### Sende direktemeldinger
-
+::: details Sende direktemeldinger
 <video controls>
-  <source src="/ressurser/chat/slack_direct_message.m4v" type="video/mp4">
+  <source src="/ressurser/chat/slack_direct_message.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
 
-#### Utforske grupper
+::: details Utforske grupper
 
 <video controls>
-  <source src="/ressurser/chat/slack_direct_message.m4v" type="video/mp4">
+  <source src="/ressurser/chat/slack_direct_message.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
+
+
 
 ## Hjelp
 ::: info Trenger du hjelp eller har spørsmål?
