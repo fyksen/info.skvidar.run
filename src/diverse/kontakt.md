@@ -14,6 +14,9 @@ Ta kontakt med SK Vidar sentralt. Her er det best å sende epost til [skvidar@sk
 
 Har du forbedringsforslag, eller er noe uklart? Snakk til Fredrik Sætereng Fyksen på en trening, eller send en epost til [fredrik@fyksen.me](mailto:fredrik@fyksen.me).
 
+## Spørsmål eller hjelp med Slack (chat)
+Ta kontakt med [Mathilde Theisen](https://www.facebook.com/mathilde.theis1) eller [Anders Nordby](https://www.facebook.com/anordby/), du finner oss under «medlemmer» på Facebook-gruppen. Eller send en epost til [fredrik@fyksen.me](mailto:fredrik@fyksen.me).
+
 ## Diverse
 
 Om du er usikker på hvem du burde kontakte, er det lav terskel for å sende en melding til Facebook-kontoen [SK Vidar Lang](https://www.facebook.com/SKVidarLang); vi svarer vanligvis raskt. Som regel er det Fredrik Fyksen, Magnus Højen eller Gustav Vasdal som svarer.

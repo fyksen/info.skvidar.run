@@ -43,6 +43,8 @@ Lag en kort description med formålet til kanalen, slik at det er lett for andre
 
 >Ha så få private kanaler som mulig, vi ønsker å være et åpent og inkluderende miljø <3
 
-## Trenger du hjelp eller har spørsmål?
+## Hjelp
+::: info Trenger du hjelp eller har spørsmål?
 
-Ta kontakt med [Mathilde Theisen](https://www.facebook.com/mathilde.theis1) eller [Anders Nordby](https://www.facebook.com/anordby/), du finner oss under «medlemmer» på Facebook-gruppen.
+Kontakt oss! Du finner informasjon om hvordan på [denne](/diverse/kontakt#sp%C3%B8rsmal-eller-hjelp-med-slack-chat) siden.
+:::
