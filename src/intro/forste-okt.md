@@ -12,9 +12,9 @@ Vi har etterhvert blitt en stor løpeklubb. Noen ganger er vi så mange som 150 
 Etterhvert håper vi at du melder deg inn [her](https://club.spond.com/landing/signup/skvidar?fbclid=IwAR1ql8u72it5s3n-UZy_hc5ZVI_6bX5mzWpLEl0cRuDvKxgB1-KsANnBoLg).
 :::
 
-### Påmelding og Facebook
+### Påmelding og Slack
 
-* SK Vidar lang har en lukket Facebook-gruppe, der treningsopplegg og annen informasjon for uken blir publisert hver søndag (noen ganger mandag morgen).
+* SK Vidar lang har en [Slack-chat](/diverse/chat), der treningsopplegg og annen informasjon for uken blir publisert på kanalen [#annonsering](https://skvidar.slack.com/archives/C062GSYQ3C6) hver søndag (noen ganger mandag morgen).
 * Som oftest har vi trening tirsdag, torsdag og lørdag.
 * Dagen før hver trening legges det ut en post i gruppa.
 
@@ -34,9 +34,9 @@ PS. dersom det er noen løpere på 15:50-16:30 nivå som vil være hare for NM-d
 🟡Reager på innlegget for påmelding til økta. Møt oppvarmet og klar til å samarbeide med fellesskapet!
 ❤10:30 - G4 39min+ på 10k atm og nye løpere.
 😮10:30 - G3,2,1 raskere enn 39 på 10k atm. Gi altså ❤ eller 😮 ift til hvilke gruppe du ønsker å løpe med.
-Dynamisk gruppeinndeling: http://i-facebookgruppa.no
+Dynamisk gruppeinndeling: https://regneark.skvidar.run/
 
-Ta gjenre med konkurransesko, og piggsko om du vurderer å løpe baneløp.
+Ta gjerne med konkurransesko, og piggsko om du vurderer å løpe baneløp.
 
 Lørdagsøkta:
 
@@ -56,15 +56,15 @@ Race prep
 5-6x300m ned mot 1500-fart p.100 m jogg / rask gange
 :::
 
-* Meld deg på økta ved å «reagere» på Facebook-posten.
-* Dette gjør du ved å holde over «tommelopp-ikonet» på posten, og så velge emojien.
+* Meld deg på økta ved å «reagere» på Slack-posten.
+* Dette gjør du ved å under posten velge riktig emoji, eventuelt "add reaction" og så velge den som mangler.
 * Velg emojien som passer for ditt nivå. I posten står det hvilke 10 km-løpstider som er hvilken emoji.
 
-::: details Her er en video som viser hvordan
+::: details Påmelding  til økt, reaksjoner
 
 <video controls>
-  <source src="/intro/facebook-react.webm" type="video/webm">
-  Nettleseren din støtter ikke video.
+  <source src="/ressurser/chat/slack_oktpaamelding.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 :::
