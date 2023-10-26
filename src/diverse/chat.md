@@ -4,9 +4,9 @@
 
 Vi ønsker å bedre og øke intern kommunikasjon, både treningsmessig og sosialt med stor grad av åpenhet.
 
-Facebook-gruppen fungerer bra for informasjonsdeling fra gruppen og for påmelding til økter, men ikke når enkeltmedlemmer ønsker å diskutere eller ta initiativ;
-da opplever en gjerne å ikke nå opp i medlemmenes nyhetsstrøm der. Skal vi ha en bedre chat for medlemmene, med ulike chatter for ulike tema, må det en annen løsning
-til som er uavhengig av Facebook.
+Facebook-gruppen fungerte bra for informasjonsdeling fra gruppen og for påmelding til økter lenge, men vi fikk til slutt problemer med at Facebook fjernet postene våre. Det fungerte også ganske dårlig når enkeltmedlemmer ønsket å diskutere eller ta initiativ;
+da opplevde en gjerne å ikke nå opp i medlemmenes nyhetsstrøm der. For å få en løst dette og få få i stand intern kommunikasjon med bedre respons for medlemmene med ulike chatter for ulike tema, trengte vi en annen løsning
+som var uavhengig av Facebook.
 
 ## Hva er Slack
 
