@@ -35,24 +35,30 @@ watch(intervaller, (newIntervaller) => {
 }, { deep: true })
 
 const kalibreringsVerdier = computed(() => {
-  return intervaller.value.map(interval => {
-    const meter = parseFloat(interval.meter)
-    const runder = parseInt(interval.runder)
-    if (isNaN(meter) || meter <= 0 || isNaN(runder) || runder <= 0) {
-      return ''
-    }
-    return (((546.5 * runder) / meter ) * 100).toFixed(8)  // Multiplied by 100 here
-  })
-})
+  const meterSum = intervaller.value.reduce((acc, interval) => {
+    const meter = parseFloat(interval.meter);
+    return acc + (isNaN(meter) ? 0 : meter);
+  }, 0);
+  
+  const roundsSum = intervaller.value.reduce((acc, interval) => {
+    const rounds = parseInt(interval.runder);
+    return acc + (isNaN(rounds) ? 0 : rounds);
+  }, 0);
+  
+  if (meterSum <= 0 || roundsSum <= 0) {
+    return '';
+  }
+  
+  return (((546.5 * roundsSum) / meterSum) * 100).toFixed(8);
+});
 
 const gjennomsnittligKalibreringsverdi = computed(() => {
-  const gyldigeVerdier = kalibreringsVerdier.value.filter(v => v !== '')
-  if (gyldigeVerdier.length === 0) {
-    return ''
+  const value = kalibreringsVerdier.value;
+  if (value === '') {
+    return '';
   }
-  const sum = gyldigeVerdier.reduce((acc, v) => acc + parseFloat(v), 0)
-  return (sum / gyldigeVerdier.length).toFixed(8);  // Removed multiplication by 100
-})
+  return parseFloat(value).toFixed(8);
+});
 
 
 const kalibreringsFaktorForKlokken = computed(() => {
