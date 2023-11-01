@@ -103,7 +103,7 @@ const fjernIntervall = (index) => {
 
 ## Brukerveiledning
 1. Skriv inn hvor mange meter klokken trodde du løp på intervallen.
-2. Løp du flere runder, trykk på `+`, eller trykk `enter`.
+2. Løp du flere intervaller, trykk på `+`, eller trykk `enter`.
 3. Skriv inn kalibreringsfaktoren din på klokken.
 
 ### Hvordan legge inn på Garmin klokke
