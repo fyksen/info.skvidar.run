@@ -22,7 +22,8 @@ export default defineConfig({
         items: [
           { text: 'Første økt', link: '/intro/forste-okt' },
           { text: 'Oppmøtesteder og intervallrunder', link: '/intro/steder' },
-          { text: 'Innendørsløping på Bislett', link: '/intro/bislett-innendors' },        
+          { text: 'Innendørsløping på Bislett', link: '/intro/bislett-innendors' },
+          { text: 'Kalibrere Footpod', link: '/intro/kalibrer-footpod' },     
         ]
       },
 
