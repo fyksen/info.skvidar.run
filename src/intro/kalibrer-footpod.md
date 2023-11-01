@@ -1,6 +1,6 @@
   # Bislett innendørs kalibreringskalkulator
 
-  Dette er en kalkulator å kalibrere foot-poden når man løper inne på Bislett.
+  Dette er en kalkulator for å kalibrere footpoden når man løper inne på Bislett.
 
   ---
 
@@ -86,7 +86,7 @@ const isConsistentMeasurement = computed(() => {
   return !(longerIntervals > 0 && shorterIntervals > 0);
 });
 
-const warningMessage = "Foot-poden din måler ikke konsekvent for langt eller for kort, dette er et problem man ikke får løst med å kalibrere den. Forsøk å feste foot-poden bedre til skoen, og gå litt i pausene, så den ikke går i dvale imellom intervallene og tar tid før den begynner å spore.";
+const warningMessage = "Footpoden din måler ikke konsekvent verken for langt eller for kort; dette er et problem du ikke får løst med å kalibrere den. Forsøk å feste footpoden bedre til skoen, og gå litt i pausene, så den ikke går i dvale imellom intervallene og tar tid før den begynner å spore.";
 
 
   const fjernIntervall = (index) => {
@@ -132,29 +132,29 @@ const warningMessage = "Foot-poden din måler ikke konsekvent for langt eller fo
 </div>
 
 
-  <p><strong>Kalibrerings faktor:</strong> {{ kalibreringsFaktorForKlokken }}</p>
+  <p><strong>Kalibreringsfaktor:</strong> {{ kalibreringsFaktorForKlokken }}</p>
 
   ## Brukerveiledning
-  1. Skriv inn hvor mange meter klokken trodde du løp på intervallen.
+  1. Skriv inn hvor mange meter klokken trodde du løp på intervallet.
   2. Løp du flere intervaller, trykk på `+`, eller trykk `enter`.
   3. Skriv inn kalibreringsfaktoren din på klokken.
 
-  ### Hvordan legge inn på Garmin klokke
-  1. Hold inne `opp`knappen.
+  ### Hvordan legge inn på Garmin-klokke
+  1. Hold inne `opp`-knappen.
   2. Bla til `Sensorer og tilbehør`
-  3. Bla til navnet på footpoden og trykk på `start` knappen på klokken (knappen oppe til høyre).
-  4. Bla til Kalibrerings faktor og trykk på `start`.
+  3. Bla til navnet på footpoden og trykk på `start`-knappen på klokken (knappen oppe til høyre).
+  4. Bla til «Kalibreringsfaktor» og trykk på `start`.
   5. Bla til `Angi verdi` og trykk på `start`.
   6. Skriv inn verdien fra kalkulatoren.
-  7. Hurra, du har nå kalibrert foot-poden din.
+  7. Hurra, du har nå kalibrert footpoden din.
 
   ## Andre tips og FAQ:
 
-  ::: details Hvordan finner jeg ut om jeg må kalibrere foot-poden?
-  Om du konsekvent får feil distanse på intervallene inne på Bislett må du kalibrere den. Om det varierer om den måler for langt eller for kort hjelper det ikke å kalibrere.
+  ::: details Hvordan finner jeg ut om jeg må kalibrere footpoden?
+  Om du konsekvent får feil distanse på intervallene inne på Bislett, må du kalibrere den. Om det varierer om den måler for langt eller for kort, hjelper det ikke å kalibrere.
   :::
 
-  ::: details Hvorfor må jeg kalibrere foot-poden flere ganger?
+  ::: details Hvorfor må jeg kalibrere footpoden flere ganger?
   Foot-poder bruker gyroskop og akselerometer for å estimere hastighet.
 
   Ting som **kan** påvirke estimeringen er:
@@ -164,8 +164,8 @@ const warningMessage = "Foot-poden din måler ikke konsekvent for langt eller fo
   :::
 
   ::: details Hvordan funker denne kalkulatoren?
-  * Kalkulatoren tar input fra brukeren om hvor mange meter foot poden leste.
-  * Deretter fyller den ut nærmeste runde på Bislett (en runde er 546,5 meter.)
-  * Så tar den (faktisk løpt distanse / input fra brukeren) * 100.
+  * Kalkulatoren tar input fra brukeren om hvor mange meter footpoden leste.
+  * Deretter fyller den ut nærmeste runde på Bislett (en runde er 546,5 meter).
+  * Så beregner den (faktisk løpt distanse / input fra brukeren) * 100.
   * Dette gjør den på hver intervall, og viser gjennomsnittet av dette til brukeren.
   :::
