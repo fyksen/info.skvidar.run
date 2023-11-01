@@ -10,6 +10,7 @@ Dette er en kalkulator å kalibrere foot-poden når man løper inne på Bislett.
 import { ref, computed, watch, nextTick } from 'vue'
 
 const intervaller = ref([{ meter: '', runder: 1 }])
+const tidligereKalibreringsverdi = ref('100')
 
 const leggTilIntervall = async (index) => {
   intervaller.value.splice(index + 1, 0, { meter: '', runder: 1 })
@@ -19,7 +20,6 @@ const leggTilIntervall = async (index) => {
     nextMeterInput.focus()
   }
 }
-
 
 // Helper function to compute the rounds
 const computeRounds = (meters) => {
@@ -60,21 +60,33 @@ const gjennomsnittligKalibreringsverdi = computed(() => {
   return parseFloat(value).toFixed(8);
 });
 
-
 const kalibreringsFaktorForKlokken = computed(() => {
-  const value = parseFloat(gjennomsnittligKalibreringsverdi.value);
-  if (isNaN(value)) {
-    return "-"
+  const gjennomsnittligVerdi = parseFloat(gjennomsnittligKalibreringsverdi.value);
+  const tidligereVerdi = parseFloat(tidligereKalibreringsverdi.value);
+  
+  if (isNaN(gjennomsnittligVerdi)) {
+    return "-";
   }
-  return value.toFixed(1);
-})
-
-
+  
+  if (!isNaN(tidligereVerdi)) {
+    const differanse = gjennomsnittligVerdi - 100;
+    return (tidligereVerdi + differanse).toFixed(1);
+  }
+  
+  return gjennomsnittligVerdi.toFixed(1);
+});
 
 const fjernIntervall = (index) => {
   intervaller.value.splice(index, 1)
 }
 </script>
+
+<div>
+  <label>
+    Tidligere kalibreringsverdi:
+    <input v-model="tidligereKalibreringsverdi" type="number" placeholder="Skriv inn tidligere kalibreringsverdi" style="margin-bottom: 15px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 5px 10px;"/>
+  </label>
+</div>
 
 <div v-for="(intervall, index) in intervaller" :key="index" style="margin-bottom: 15px; display: flex; align-items: center;">
   <label style="flex: 1;">
@@ -91,7 +103,7 @@ const fjernIntervall = (index) => {
       readonly
       style="width: 40px; 
         text-align: center; 
-        background-color: #e5e5e5;  <!-- This is where you had an inline comment -->
+        background-color: #e5e5e5; 
         border: 1px solid #ccc; 
         padding: 5px 10px; 
         margin-left: 5px; 
@@ -105,7 +117,6 @@ const fjernIntervall = (index) => {
 </div>
 
 <p><strong>Kalibrerings faktor:</strong> {{ kalibreringsFaktorForKlokken }}</p>
-
 
 ## Brukerveiledning
 1. Skriv inn hvor mange meter klokken trodde du løp på intervallen.
