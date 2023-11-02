@@ -61,29 +61,50 @@
   });
 
   const kalibreringsFaktorForKlokken = computed(() => {
-    const gjennomsnittligVerdi = parseFloat(gjennomsnittligKalibreringsverdi.value);
-    const tidligereVerdi = parseFloat(tidligereKalibreringsverdi.value);
-    
-    if (isNaN(gjennomsnittligVerdi)) {
-      return "-";
-    }
-    
-    if (!isNaN(tidligereVerdi)) {
-      const differanse = gjennomsnittligVerdi - 100;
-      return (tidligereVerdi + differanse).toFixed(1);
-    }
-    
-    return gjennomsnittligVerdi.toFixed(1);
+      const actualDistance = 546.5 * intervaller.value.reduce((acc, interval) => {
+        const rounds = parseInt(interval.runder);
+        return acc + (isNaN(rounds) ? 0 : rounds);
+      }, 0);
+  
+      const measuredDistance = intervaller.value.reduce((acc, interval) => {
+        const meter = parseFloat(interval.meter);
+        return acc + (isNaN(meter) ? 0 : meter);
+      }, 0);
+  
+      const tidligereVerdi = parseFloat(tidligereKalibreringsverdi.value);
+      
+      if (measuredDistance === 0 || isNaN(tidligereVerdi)) {
+        return "-";
+      }
+  
+      return (tidligereVerdi * (actualDistance / measuredDistance)).toFixed(1);
   });
 
 const isConsistentMeasurement = computed(() => {
-  const oneRound = 546.5;
+  const intervals = intervaller.value;
 
-  const longerIntervals = intervaller.value.filter(interval => parseFloat(interval.meter) > oneRound).length;
-  const shorterIntervals = intervaller.value.filter(interval => parseFloat(interval.meter) < oneRound && parseFloat(interval.meter) > 0).length;
-  
+  let hasLongerInterval = false;
+  let hasShorterInterval = false;
+
+  for (let i = 0; i < intervals.length; i++) {
+    const meter = parseFloat(intervals[i].meter);
+    const rounds = parseInt(intervals[i].runder);
+
+    if (isNaN(meter) || isNaN(rounds)) {
+      continue;
+    }
+
+    if (meter > rounds * 546.5) {
+      hasLongerInterval = true;
+    }
+
+    if (meter < rounds * 546.5) {
+      hasShorterInterval = true;
+    }
+  }
+
   // If there are both longer and shorter intervals, the measurement is not consistent
-  return !(longerIntervals > 0 && shorterIntervals > 0);
+  return !(hasLongerInterval && hasShorterInterval);
 });
 
 const warningMessage = "Footpoden din måler ikke konsekvent verken for langt eller for kort; dette er et problem du ikke får løst med å kalibrere den. Forsøk å feste footpoden bedre til skoen, og gå litt i pausene, så den ikke går i dvale imellom intervallene og tar tid før den begynner å spore.";
