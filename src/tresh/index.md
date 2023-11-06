@@ -59,7 +59,7 @@ På dette bildet er det lagt på tekst over dataene for å tydeliggjøre data p�
 
 ::: details Se video-eksempel
 <video controls>
-  <source src="index-activities.webm" type="video/mp4">
+  <source src="index-activities.mp4" type="video/mp4">
   Nettleseren din støtter ikke videoformatet.
 </video>
 :::
@@ -73,7 +73,7 @@ På dette bildet er det lagt på tekst over dataene for å tydeliggjøre data p�
 
 ::: details Se video-eksempel
 <video controls>
-  <source src="index-progress.webm" type="video/mp4">
+  <source src="index-progress.mp4" type="video/mp4">
   Nettleseren din støtter ikke videoformatet.
 </video>
 :::
