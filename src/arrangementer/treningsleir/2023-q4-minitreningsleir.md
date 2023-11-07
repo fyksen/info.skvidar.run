@@ -36,6 +36,11 @@ Lørdagens feiring blir ekstra koselig, men du er hjertelig velkommen til å del
 
 Før vi svinger oss inn i festmodus, vil vi løpe gjennom skogens vinterlandskap, synke ned i en deilig, varm badstue, ha quiz og brettspill, finne roen med meditasjon, og spre glede rundt oss med baking og festlige måltider. Og når lørdagskvelden ruller inn, venter et julebord spekket med godsaker (inkludert vegetar- og veganalternativer), edle dråper, boblende julebrus og øl, dans og allsang til julemelodier. Kle deg med noe pent og la oss skape minner for livet!
 
+## Pakkeliste:
+* Laken
+* Putevar
+* Sovepose
+
 
 ## Spørsmål og svar
 
@@ -44,16 +49,6 @@ Har du et spørsmål, ikke nøl med å stille det.  Her er måter du kan kontakt
 * Skriv til oss på [Slack](/diverse/chat) i kanalen [#juletreningsleir](https://skvidar.slack.com/archives/C064JPKRJ9K).
 * Skriv en Slack-chat til [Gustav Vasdal](https://skvidar.slack.com/archives/D061Q7ZSE73).
 * Skriv en epost til fredrik@fyksen.me.
-
-### Ofte stilte spørsmål
-
-::: details Hvor mye koster det å ta med sykkel?
-Vi har ikke sjekket, men sjekker om vi får forespørsel om det.
-:::
-
-::: details Må man være medlem av SK Vidar for å bli med?
-Ja, dette er et tilbud til betalende medlemmer av SK Vidar og OSI Friidrett.
-:::
 
 ## Hvem kommer?
 
