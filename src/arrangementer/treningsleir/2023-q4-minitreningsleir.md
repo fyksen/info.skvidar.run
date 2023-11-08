@@ -17,6 +17,7 @@ Kun 14 plasser for kvinner og 14 for menn. Førstemann til mølla gjelder,  mens
 
 ::: info 👼 Student?
 Bruk koden "student", så koster alle billettene 50 kr. Du må være medlem av OSI Friidrett for å bruke denne.
+Fyll inn denne nederst under **"Redeem a voucher"**.
 :::
 
 <script setup>
