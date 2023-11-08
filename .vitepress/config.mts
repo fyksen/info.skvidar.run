@@ -44,8 +44,8 @@ export default defineConfig({
         items: [
           { text: 'Oversikt', link: '/arrangementer/oversikt' },
           { text: '2023-Q4-Julebord', link: '/arrangementer/sosialt/julebord-23/' },
+          { text: '2023-Q4-KSI-hytta', link: '/arrangementer/treningsleir/2023-q4-minitreningsleir' },
           { text: '2024-Q1-Fuerteventura', link: '/arrangementer/treningsleir/2024-q1-fuerteventura' },
-          
         ]
       }      
 
