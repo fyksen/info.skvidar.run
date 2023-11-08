@@ -24,19 +24,59 @@ const members = [
 
 Si hei til vårt fantastiske trenerteam!
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
 
 
 ## Ildsjeler
 
 Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig å dra frem bare en håndfull.
 <VPTeamMembers
-  size="small"
+  size="medium"
   :members="[
+        {
+          avatar: '/avatars/anne-line.png',
+          name: 'Anne-Line Evenstad Dahlen',
+          title: 'Alt mulig dame'
+        },
+        {
+          avatar: '/avatars/axel-wolland.png',
+          name: 'Axel Wollan',
+          title: 'Styremedlem i SKV'
+        },
         {
           avatar: '/avatars/fredrikfyksen.jpg',
           name: 'Fredrik Sætereng Fyksen',
-          title: 'Altmuligmann'
+          title: 'Alt mulig mann'
+        },
+        {
+          avatar: '/avatars/ingrid-huitfeldt.png',
+          name: 'Ingrid Marie Schaumburg Huitfeldt',
+          title: 'Styremedlem i SKV'
+        },
+        {
+          avatar: '/avatars/magnus-warvik.png',
+          name: 'Magnus Warvik',
+          title: 'Tidtakning'
+        },
+        {
+          avatar: '/avatars/mathilde-theisen.png',
+          name: 'Mathilde Theisen',
+          title: 'Passer på alle'
+        },
+        {
+          avatar: '/avatars/sofie-fosselie.jpg',
+          name: 'Sofie Fosselie',
+          title: 'Alt mulig dame'
+        },
+        {
+          avatar: '/avatars/steinar-gunderson.png',
+          name: 'Steinar H. Gunderson',
+          title: 'Kodekriger, integrasjon mellom Slack og regneark'
+        },
+        {
+          avatar: '/avatars/tore-lervik.png',
+          name: 'Tore Lervik',
+          title: 'Main guy bak skvidar.run'
         }
 ]"
 />
