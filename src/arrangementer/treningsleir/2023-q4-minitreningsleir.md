@@ -12,7 +12,11 @@
 ## Påmelding
 
 ::: info 🔔 NB! Begrenset med plasser
- Kun 14 plasser for kvinner og 14 for menn. Førstemann til mølla gjelder,  mens resten settes på venteliste. For deg som ønsker en natt hjemme: ha det gøy på lørdagsfesten!
+Kun 14 plasser for kvinner og 14 for menn. Førstemann til mølla gjelder,  mens resten settes på venteliste. For deg som ønsker en natt hjemme: ha det gøy på lørdagsfesten!
+:::
+
+::: info 👼 Student?
+Bruk koden "student", så koster alle billettene 50 kr. Du må være medlem av OSI Friidrett for å bruke denne.
 :::
 
 <script setup>
@@ -23,6 +27,8 @@ import AttendeesTable from '/arrangementer/attendees.vue'
 ::: details Kjøp billett
 <PretixWidgetCompat eventId="minitreningsleir" />
 :::
+
+ 
 
 
 ## Pris
