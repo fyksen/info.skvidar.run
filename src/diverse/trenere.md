@@ -36,7 +36,7 @@ Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig 
         {
           avatar: '/avatars/anne-line.png',
           name: 'Anne-Line Evenstad Dahlen',
-          title: 'Alt mulig dame'
+          title: 'Altmuligdame'
         },
         {
           avatar: '/avatars/axel-wolland.png',
@@ -46,7 +46,7 @@ Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig 
         {
           avatar: '/avatars/fredrikfyksen.jpg',
           name: 'Fredrik Sætereng Fyksen',
-          title: 'Alt mulig mann'
+          title: 'Altmuligmann'
         },
         {
           avatar: '/avatars/ingrid-huitfeldt.png',
@@ -66,7 +66,7 @@ Det er mange ildsjeler i SK Vidar Lang som gjør det mulig, og det er vanskelig 
         {
           avatar: '/avatars/sofie-fosselie.jpg',
           name: 'Sofie Fosselie',
-          title: 'Alt mulig dame'
+          title: 'Altmuligdame'
         },
         {
           avatar: '/avatars/steinar-gunderson.png',
