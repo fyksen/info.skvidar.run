@@ -34,6 +34,12 @@
     }
   }, { deep: true })
 
+  // Prefill intervals if given in the URL
+  if (window.location.hash !== undefined) {
+    const rounds = window.location.hash.substr(1).split(',').map(x => parseFloat(x));
+    intervaller.value = rounds.map(x => { return { meter: x, rounds: computeRounds(x) }});
+  }
+
   const kalibreringsVerdier = computed(() => {
     const meterSum = intervaller.value.reduce((acc, interval) => {
       const meter = parseFloat(interval.meter);
