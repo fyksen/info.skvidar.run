@@ -7,8 +7,8 @@ Her har vi treningsmuligheter rett ved hotellet, for både de som ønsker løpin
 
 
 ::: warning Frist og tidspunkt
-* Påmeldingsfrist med betaling er 14. november, og det er **bindende** påmelding.
-
+* ~~Påmeldingsfrist med betaling er 14. november, og det er **bindende** påmelding.~~
+* **Gjennom dialog med reiseselskapet har fått utvidet fristen til 3. desember!**
 * Dato for reise: 19.–26. januar. Ukenummer: 3-4.
 :::
 
