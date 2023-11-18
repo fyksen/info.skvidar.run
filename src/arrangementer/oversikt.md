@@ -1,11 +1,7 @@
 # Oversikt over kommende arrangementer i regi av SK Vidar Lang
 
 
-## Julebord <Badge type="tip" text="Fest" /> <Badge type="info" text="16. November, 2023" />
 
-* [Mer info](https://www.facebook.com/events/1359388694612729/)
-* Dato: 16. november.
-* [Påmelding](/arrangementer/sosialt/julebord-23/)
 
 ## Minitreningsleir KSI hytta <Badge type="tip" text="Fest" /> <Badge type="info" text="8-10 desember, 2023" />
 * Dato: 8-10 desember
@@ -20,6 +16,12 @@
 
 ## Tidligere arrangementer
 Her er arrangementer som allerede har funnet sted eller hvor påmeldingsfristen har utløpt.
+
+## Julebord <Badge type="tip" text="Fest" /> <Badge type="info" text="16. November, 2023" />
+
+* [Mer info](https://www.facebook.com/events/1359388694612729/)
+* Dato: 16. november.
+* [Påmelding](/arrangementer/sosialt/julebord-23/)
 
 ## Mar de Pulpi <Badge type="tip" text="Utløpt-Treningsleir" /> <Badge type="info" text="Oktober 2023" />
 
