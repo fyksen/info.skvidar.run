@@ -2,7 +2,7 @@
 
 ## Minitreningsleir KSI hytta <Badge type="tip" text="Fest" /> <Badge type="info" text="8-10 desember, 2023" />
 * Dato: 8-10 desember
-* [Påmelding](/treningsleir/2023-q4-minitreningsleir)
+* [Påmelding](/arrangementer/treningsleir/2023-q4-minitreningsleir)
 
 ## Tenereife/Granca <Badge type="tip" text="Treningsleir" />  <Badge type="info" text="q1 2024" />
 
