@@ -27,11 +27,20 @@
     return Math.round(meters / oneRound)
   }
 
-  // Watch for changes in the intervaller array
-  watch(intervaller, (newIntervaller) => {
-    for (let intervall of newIntervaller) {
-      intervall.runder = computeRounds(intervall.meter)
+  // Update the intervals display (including the single-round calibration factors)
+  // when the rounds or previous factor changes
+  let displayIntervals = (prevFactor, intervals) => {
+    let outputFactor = 100.0 * (parseFloat(prevFactor) / 100.0);
+    for (let intervall of intervals) {
+      intervall.runder = computeRounds(intervall.meter);
+      intervall.rundeFaktor = outputFactor * (546.5 * intervall.runder) / intervall.meter;
     }
+  };
+  watch(tidligereKalibreringsverdi, (newPrevFactor) => {
+    displayIntervals(newPrevFactor, intervaller.value);
+  });
+  watch(intervaller, (newIntervals) => {
+    displayIntervals(tidligereKalibreringsverdi.value, newIntervals);
   }, { deep: true })
 
   // Prefill intervals if given in the URL
@@ -86,11 +95,16 @@
       return (tidligereVerdi * (actualDistance / measuredDistance)).toFixed(1);
   });
 
-const isConsistentMeasurement = computed(() => {
+// Find the difference (as a ratio) of the longest and shortest measured rounds;
+// this is a simple measurement of the footpod's error. (Standard deviation does
+// not make all that much sense when we have so few data points.)
+//
+// We set a tolerance of 1% (allowing roughly +/- 0.5% from perfect after calibration)
+// before we start displaying a warning.
+const roundSpread = computed(() => {
   const intervals = intervaller.value;
 
-  let hasLongerInterval = false;
-  let hasShorterInterval = false;
+  let longestRoundDistance, shortestRoundDistance;
 
   for (let i = 0; i < intervals.length; i++) {
     const meter = parseFloat(intervals[i].meter);
@@ -100,20 +114,23 @@ const isConsistentMeasurement = computed(() => {
       continue;
     }
 
-    if (meter > rounds * 546.5) {
-      hasLongerInterval = true;
+    let roundDistance = meter / rounds;
+    if (!longestRoundDistance || roundDistance > longestRoundDistance) {
+      longestRoundDistance = roundDistance;
     }
-
-    if (meter < rounds * 546.5) {
-      hasShorterInterval = true;
+    if (!shortestRoundDistance || roundDistance < shortestRoundDistance) {
+      shortestRoundDistance = roundDistance;
     }
   }
 
-  // If there are both longer and shorter intervals, the measurement is not consistent
-  return !(hasLongerInterval && hasShorterInterval);
+  console.log(longestRoundDistance, shortestRoundDistance);
+  if (!shortestRoundDistance || !longestRoundDistance) {
+    return 1.0;
+  } else {
+    return longestRoundDistance / shortestRoundDistance;
+  }
 });
 
-const warningMessage = "Footpoden din måler ikke konsekvent verken for langt eller for kort; dette er et problem du ikke får løst med å kalibrere den. Forsøk å feste footpoden bedre til skoen, og gå litt i pausene, så den ikke går i dvale imellom intervallene og tar tid før den begynner å spore.";
 
 
   const fjernIntervall = (index) => {
@@ -147,6 +164,9 @@ const warningMessage = "Footpoden din måler ikke konsekvent verken for langt el
         margin-left: 5px; 
         margin-right: 5px;
         cursor: default;">
+    <span style="text-align: center; font-size: x-small; width: 100px; display: inline-block">
+    {{ intervall.rundeFaktor ? '(' + intervall.rundeFaktor.toFixed(1) + ')' : '' }}
+    </span>
   </label>
     <button v-if="index !== intervaller.length - 1" style="opacity: 0; cursor: default; width: 40px; margin-left: 5px;" disabled></button>
     <button v-else @click="leggTilIntervall(index)" style="background-color: #4CAF50; color: white; border: none; padding: 5px 10px; cursor: pointer; margin-left: 5px; width: 40px;">+</button>
@@ -154,8 +174,10 @@ const warningMessage = "Footpoden din måler ikke konsekvent verken for langt el
     <button v-else style="background-color: #f44336; color: white; border: none; padding: 5px 10px; cursor: not-allowed; margin-left: 5px; width: 40px; opacity: 0.5;" disabled>-</button>
   </div>
 
-<div v-if="!isConsistentMeasurement" style="color: red; margin-top: 20px; margin-bottom: 20px;">
-  {{ warningMessage }}
+<div v-if="roundSpread > 1.01" style="color: red; margin-top: 20px; margin-bottom: 20px;">
+  Footpoden din varierer for mye fra intervall til intervall (forskjellen på lengste og korteste rundemåling
+  er {{ (100.0 * roundSpread - 100.0).toFixed(1).replace('.', ',') }}%); dette er et problem du ikke får løst med å kalibrere den. Forsøk å feste footpoden bedre til skoen,
+  og gå litt i pausene, så den ikke går i dvale imellom intervallene og tar tid før den begynner å spore.
 </div>
 
 
