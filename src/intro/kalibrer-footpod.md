@@ -27,11 +27,20 @@
     return Math.round(meters / oneRound)
   }
 
-  // Watch for changes in the intervaller array
-  watch(intervaller, (newIntervaller) => {
-    for (let intervall of newIntervaller) {
-      intervall.runder = computeRounds(intervall.meter)
+  // Update the intervals display (including the single-round calibration factors)
+  // when the rounds or previous factor changes
+  let displayIntervals = (prevFactor, intervals) => {
+    let outputFactor = 100.0 * (parseFloat(prevFactor) / 100.0);
+    for (let intervall of intervals) {
+      intervall.runder = computeRounds(intervall.meter);
+      intervall.rundeFaktor = outputFactor * (546.5 * intervall.runder) / intervall.meter;
     }
+  };
+  watch(tidligereKalibreringsverdi, (newPrevFactor) => {
+    displayIntervals(newPrevFactor, intervaller.value);
+  });
+  watch(intervaller, (newIntervals) => {
+    displayIntervals(tidligereKalibreringsverdi.value, newIntervals);
   }, { deep: true })
 
   // Prefill intervals if given in the URL
@@ -147,6 +156,9 @@ const warningMessage = "Footpoden din måler ikke konsekvent verken for langt el
         margin-left: 5px; 
         margin-right: 5px;
         cursor: default;">
+    <span style="text-align: center; font-size: x-small; width: 100px; display: inline-block">
+    {{ intervall.rundeFaktor ? '(' + intervall.rundeFaktor.toFixed(1) + ')' : '' }}
+    </span>
   </label>
     <button v-if="index !== intervaller.length - 1" style="opacity: 0; cursor: default; width: 40px; margin-left: 5px;" disabled></button>
     <button v-else @click="leggTilIntervall(index)" style="background-color: #4CAF50; color: white; border: none; padding: 5px 10px; cursor: pointer; margin-left: 5px; width: 40px;">+</button>
