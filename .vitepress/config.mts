@@ -37,7 +37,8 @@ export default defineConfig({
           { text: 'Klubbtøy', link: '/diverse/klubbtoy' },
           { text: 'Kontakt', link: '/diverse/kontakt' },
           { text: 'Representasjon', link: '/diverse/representasjon' },
-          { text: 'SKVidar.run terskel-app', link: '/tresh' }
+          { text: 'SKVidar.run terskel-app', link: '/tresh' },
+          { text: 'Løpskalender', link: '/diverse/kalender' }
         ]
       },
 
