@@ -1,18 +1,16 @@
 # Oversikt over kommende arrangementer i regi av SK Vidar Lang
 
-## Minitreningsleir KSI hytta <Badge type="tip" text="Fest" /> <Badge type="info" text="8-10 desember, 2023" />
-* Dato: 8-10 desember
-* [Påmelding](/arrangementer/treningsleir/2023-q4-minitreningsleir)
-
 ## Tenereife/Granca <Badge type="tip" text="Treningsleir" />  <Badge type="info" text="q1 2024" />
 
 * Dato: 19.–26. januar.
 * Mer informasjon på [denne](/arrangementer/treningsleir/2024-q1-fuerteventura) siden.
 
-
-
 ## Tidligere arrangementer
 Her er arrangementer som allerede har funnet sted eller hvor påmeldingsfristen har utløpt.
+
+## Minitreningsleir KSI hytta <Badge type="tip" text="Fest" /> <Badge type="info" text="8-10 desember, 2023" />
+* Dato: 8-10 desember
+* [Påmelding](/arrangementer/treningsleir/2023-q4-minitreningsleir)
 
 ## Julebord <Badge type="tip" text="Fest" /> <Badge type="info" text="16. November, 2023" />
 
